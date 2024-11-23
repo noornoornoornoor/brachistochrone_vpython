@@ -2,8 +2,6 @@
 failed vpython 3d program for brachistochrone
 
 Web VPython 3.2
-#g1 = graph(xtitle="x",ytitle="y",width =400, height=400,
-#xmin=-1.1, ymax=1.1,xmax=0.1,ymin=-0.1)
 
 g = 9.8
 alpha = pi/4
@@ -42,9 +40,5 @@ while s>0:
   cyc = curve(pos = cyc_list, color = color.red)
 
   
-  
- # f1.plot(x1,y1)
-  #f2.plot(x2,y2)
-  #f3.plot(x3,y3)
 t = t + dt
 print(sdot)
